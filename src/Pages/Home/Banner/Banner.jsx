@@ -14,6 +14,9 @@ const Banner = () => {
     //     AOS.init();
     //     AOS.refresh();
     // }, []); 
+
+
+
     return (
 
         <div className='  min-w-full lg:flex place-content-around my-16'>
@@ -65,7 +68,7 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className='my-auto relative'>
+            <div className='my-auto  relative'>
                 <img className='max-w-sm  rounded-full shadow-2xl z-10' src={imgjahid} alt="" />
             </div>
         </div>
