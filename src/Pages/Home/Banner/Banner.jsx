@@ -14,8 +14,6 @@ const Banner = () => {
     //     AOS.init();
     //     AOS.refresh();
     // }, []); 
-
-
     return (
 
         <div className='  min-w-full lg:flex place-content-around my-16'>
