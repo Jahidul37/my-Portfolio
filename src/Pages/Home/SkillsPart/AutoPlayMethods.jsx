@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
+
 export default class AutoPlayMethods extends Component {
 
     render() {
