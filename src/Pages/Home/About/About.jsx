@@ -14,7 +14,7 @@ const About = () => {
     return (
         <div data-aos="zoom-in" className=' card-body rounded-xl m-3 my-10 bg-slate-200'>
             <div className=' text-center '>
-                <h1 className=' text-3xl font-bold py-4 '>About <span className='text-[#5dd606]'>me</span> </h1>
+                <h1 className=' text-3xl font-bold py-4 '>About <span className='text-[#009900]'>me</span> </h1>
                 <div className='py-5 lg:mx-20 lg:px-32'>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius perferendis quae corrupti, explicabo veritatis! Harum, eius at?
                         Accusamus dolorum ex perspiciatis repellat eveniet explicabo ad quaerat labore laudantium quas!</p>
@@ -24,7 +24,7 @@ const About = () => {
                 <div className="hero-content gap-x-10 flex-col lg:flex-row">
                     <img data-aos="zoom-out-left" src={imgjahid} className="lg:max-w-sm   rounded-lg shadow-2xl" />
                     <div>
-                        <h1 className="text-3xl font-bold">Hello I Am <span className='text-[#5dd606]'>Jahidul Islam.</span> </h1>
+                        <h1 className="text-3xl font-bold">Hello I Am <span className='text-[#009900]'>Jahidul Islam.</span> </h1>
                         <p className="py-5">I am a MERN Stack Developer. As a MERN stack developer, I have a good understanding of HTML, CSS, and JavaScript, and I have successfully worked on over 10 projects.
                             With my expertise in these core technologies, I specialize in building dynamic and responsive web applications. In my portfolio, I have developed a diverse range of projects,
                             including e-commerce websites, social media platforms, content management systems, and more.</p>
@@ -36,7 +36,7 @@ const About = () => {
                             <p className=' font-semibold'><span className=' text-lg me-9'>Email</span> : jahidul.islam6610@gmail.com</p>
 
                         </div>
-                        <Link to="/contact"><button className="btn border-none  bg-[#5dd606] text-white opacity-90">Get in touch <ImArrowRight2></ImArrowRight2></button></Link>
+                        <Link to="/contact"><button className="btn border-none  bg-[#009900] text-white opacity-90">Get in touch <ImArrowRight2></ImArrowRight2></button></Link>
                     </div>
                 </div>
             </div>

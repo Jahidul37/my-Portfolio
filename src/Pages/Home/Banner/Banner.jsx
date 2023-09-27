@@ -22,11 +22,11 @@ const Banner = () => {
         <div className='  min-w-sm sm:mx-5 lg:flex place-content-around my-16'>
             <div className=' my-auto mx-4 lg:min-w-[806px] ' >
                 <h4 className='text-2xl  font-bold py-6 text-white'>Welcome to my portfolio</h4>
-                <h1 className="text-5xl font-bold I'M text-amber-300 ">HI! I am <span className='text-[#5dd606]'>Jahidul Islam.</span></h1>
+                <h1 className="text-5xl font-bold I'M text-amber-500 ">HI! I am <span className='text-[#009900]'>Jahidul Islam.</span></h1>
                 <div className=''>
                     <h1 className='text-4xl my-6 font-extrabold min-h-[80px] text-white drop-shadow-lg '>
                         I'M A{' '}
-                        <span style={{ color: '#5dd606', fontWeight: '' }}>
+                        <span style={{ color: '#009900', fontWeight: '' }}>
                             {/* Style will be inherited from the parent element */}
                             <Typewriter
                                 words={['Mern Stack developer|', 'React Developer|', 'Frontend Developer |']}
@@ -51,7 +51,7 @@ const Banner = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <button className="btn border-none  bg-[#5dd606] text-white opacity-90 m-2">
+                        <button className="btn border-none  bg-[#009900] text-white  m-2">
                             Resume<ImDownload3></ImDownload3></button>
                     </Link>
 
@@ -62,7 +62,7 @@ const Banner = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <button className="btn border-none  bg-[#5dd606] text-white opacity-90 m-2">Download Cv</button>
+                        <button className="btn border-none  bg-[#009900] text-white m-2">Download Cv</button>
                     </Link>
 
                 </div>

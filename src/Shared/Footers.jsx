@@ -26,10 +26,10 @@ const Footers = () => {
                     <div className=' mx-auto'>
                         <h1 className=' text-3xl font-bold text-center mt-3 '>Jahidul Islam</h1>
 
-                        <Link to="/about"> <button className='m-2 lg:text-white text-lg font-semibold'>About</button></Link>
-                        <Link to=""><button className='m-2 text-lg font-semibold lg:text-white'>Resume</button></Link>
-                        <Link to=""><button className='m-2 text-lg font-semibold lg:text-white'>Download Cv</button></Link>
-                        <Link to="/contact"><button className='m-2 lg:text-white border-0 outline-none text-lg font-semibold'>Hire Me</button></Link>
+                        <Link to="/about"> <button className='m-2  text-lg font-semibold'>About</button></Link>
+                        <Link to=""><button className='m-2 text-lg font-semibold '>Resume</button></Link>
+                        <Link to=""><button className='m-2 text-lg font-semibold'>Download Cv</button></Link>
+                        <Link to="/contact"><button className='m-2 border-0 outline-none text-lg font-semibold'>Hire Me</button></Link>
 
                     </div>
 
