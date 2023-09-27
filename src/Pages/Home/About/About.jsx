@@ -31,7 +31,7 @@ const About = () => {
                         <div className=' space-y-3 my-3'>
                             <p className=' font-semibold'><span className=' text-lg me-8'>Name</span> : Jahidul Islam.</p>
                             <p className=' font-semibold'><span className=' text-lg me-12'>Age</span> : 23</p>
-                            <p className=' font-semibold'><span className=' text-lg me-2'>Address</span> : Sheowrapar, Dhaka</p>
+                            <p className=' font-semibold'><span className=' text-lg me-2'>Address</span> : Sheowrapara,Mirpur, Dhaka</p>
                             <p className=' font-semibold'><span className=' text-lg me-7'>Phone</span> : 01608276728.</p>
                             <p className=' font-semibold'><span className=' text-lg me-9'>Email</span> : jahidul.islam6610@gmail.com</p>
 

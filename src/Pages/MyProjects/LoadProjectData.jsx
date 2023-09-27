@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LoadProjectData = ({ user }) => {
     console.log(user.name);
-    const { id, category, name, img } = user;
+    const { id, category, name, img, liveLink } = user;
 
     return (
 
@@ -18,7 +19,7 @@ const LoadProjectData = ({ user }) => {
                     <h2 className="card-title mt-4 min-[220px]">{name}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn border-none  bg-[#009900] text-white ">view Details</button>
+                        <Link to={liveLink} target='blank'><button className="btn border-none  bg-[#009900] text-white ">live link</button></Link>
                     </div>
                 </div>
             </div>
