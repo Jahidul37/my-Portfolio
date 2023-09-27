@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const LoadProjectData = ({ user }) => {
     console.log(user.name);
-    const { id, category, name, img, liveLink } = user;
+    const { id, category, name, img, liveLink, details } = user;
 
     return (
 
@@ -17,7 +17,7 @@ const LoadProjectData = ({ user }) => {
                 <figure><img className=' w-auto h-[300px]' src={img} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title mt-4 min-[220px]">{name}</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <p>{details}</p>
                     <div className="card-actions justify-end">
                         <Link to={liveLink} target='blank'><button className="btn border-none  bg-[#009900] text-white ">live link</button></Link>
                     </div>
