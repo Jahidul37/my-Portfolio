@@ -71,7 +71,7 @@ const ContactMe = () => {
 
                                 <div className="form-control">
 
-                                    <input className="btn btn-neutral mt-3" type="submit" value="Send" />
+                                    <input className="btn border-none  bg-[#5dd606] text-white mt-3" type="submit" value="Send" />
 
                                 </div>
                             </form>
