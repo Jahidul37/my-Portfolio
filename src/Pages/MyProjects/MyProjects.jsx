@@ -34,7 +34,7 @@ const MyProjects = () => {
 
             </div>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-2 lg:ml-5 ml-1 my-10'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-2 mx-2 my-10'>
 
                 {/* card difference er part */}
 
@@ -48,7 +48,12 @@ const MyProjects = () => {
 
                 {/* card difference er part end */}
 
+                <div className='text center mx-auto my-auto'>
+                    <button className='btn btn-active btn-accent mx-auto '>see more</button>
+                </div>
             </div>
+
+
         </div>
 
     );

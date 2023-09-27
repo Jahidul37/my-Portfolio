@@ -38,5 +38,13 @@
         "category": "html",
         "liveLink": "https://helpful-paletas-3d8e0e.netlify.app/",
         "details": "Cras id purus vel est fringilla eleifend. In at urna auctor, euismod justo eget, facilisis arcu."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/bQWqWz7/developer-portfolio.png",
+        "name": "Developer portfolio",
+        "category": "html",
+        "liveLink": "https://helpful-paletas-3d8e0e.netlify.app/",
+        "details": "Cras id purus vel est fringilla eleifend. In at urna auctor, euismod justo eget, facilisis arcu."
     }
 ]

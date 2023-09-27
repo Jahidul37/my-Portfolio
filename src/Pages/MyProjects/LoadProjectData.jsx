@@ -12,10 +12,10 @@ const LoadProjectData = ({ user }) => {
 
             className='mb-3'>
 
-            <div className="card card-compact w-96 bg-white shadow-xl">
-                <figure><img className=' ' src={img} alt="Shoes" /></figure>
+            <div className="card card-compact  w-90 mx-2 bg-white shadow-xl">
+                <figure><img className=' w-auto h-[300px]' src={img} alt="Shoes" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title mt-4">{name}</h2>
+                    <h2 className="card-title mt-4 min-[220px]">{name}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
                         <button className="btn btn-warning opacity-90">view Details</button>
