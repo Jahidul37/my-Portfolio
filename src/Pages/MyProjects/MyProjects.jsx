@@ -1,13 +1,27 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from "aos";
-import projectImg from "./../../assets/Bannerimg/background1.jpg"
+import projectImg from "./../../assets/webLink-Img/Universe.png"
+import LoadProjectData from './LoadProjectData';
 
 const MyProjects = () => {
 
+    // load data in api
+    const [users, setUsers] = useState([])
+    useEffect(() => {
+        fetch('projectsImg.json')
+            .then(res => res.json())
+            .then(data => setUsers(data))
+    }, [])
+
+
+
+    // react aos animation
     useEffect(() => {
         AOS.init({ duration: 2000 });
         AOS.refresh();
     }, []);
+
+
 
     return (
 
@@ -24,97 +38,13 @@ const MyProjects = () => {
 
                 {/* card difference er part */}
 
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
+                {
+                    users.map(user => <LoadProjectData
+                        key={user.id}
+                        user={user}
 
-                    className='mb-3'>
-
-                    <div className="card card-compact w-96 bg-white shadow-xl">
-                        <figure><img src={projectImg} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-warning opacity-90">Buy Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
-
-                    className='mb-3'>
-
-                    <div className="card card-compact w-96 bg-white shadow-xl">
-                        <figure><img src={projectImg} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-warning opacity-90">Buy Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
-
-                    className='mb-3'>
-
-                    <div className="card card-compact w-96 bg-white shadow-xl">
-                        <figure><img src={projectImg} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-warning opacity-90">Buy Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
-
-                    className='mb-3'>
-
-                    <div className="card card-compact w-96 bg-white  shadow-xl">
-                        <figure><img src={projectImg} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-warning opacity-90">Buy Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000"
-
-                    className='mb-3'>
-
-                    <div className="card card-compact w-96 bg-white shadow-xl">
-                        <figure><img src={projectImg} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-warning opacity-90">Buy Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+                    ></LoadProjectData>)
+                }
 
                 {/* card difference er part end */}
 
