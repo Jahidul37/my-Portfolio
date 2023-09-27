@@ -49,7 +49,7 @@ const SkillPart = () => {
             </div>
 
 
-            <div className='lg:mx-20 my-10 p-3  lg:px-5 py-6'>
+            <div className='lg:mx-20  my-10 p-3 ml-10 lg:px-5 py-6'>
                 {/* autoplay import in side */}
                 <AutoPlayMethods> </AutoPlayMethods>
             </div>
