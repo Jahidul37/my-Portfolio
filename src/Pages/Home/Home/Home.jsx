@@ -8,6 +8,7 @@ import Quotes from '../Quotes/Quotes';
 const Home = () => {
     return (
         <div>
+
             <Banner></Banner>
             <About></About>
             <SkillPart></SkillPart>

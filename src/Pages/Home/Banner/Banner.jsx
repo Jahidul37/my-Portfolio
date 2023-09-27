@@ -4,9 +4,9 @@ import { ImDownload3 } from "react-icons/im";
 import { Typewriter } from 'react-simple-typewriter';
 import imgjahid from "../../../assets/img-portfilio/jahidul.png"
 import DownloadCV from "./../../../assets/CvResume/Jahidul CV .pdf"
-
 import "./Banner.css"
 import { Link } from "react-router-dom";
+
 
 const Banner = () => {
 
@@ -14,8 +14,6 @@ const Banner = () => {
     //     AOS.init();
     //     AOS.refresh();
     // }, []); 
-
-
 
     return (
 
@@ -69,7 +67,7 @@ const Banner = () => {
             </div>
 
             <div className='my-auto  relative'>
-                <img className=' w-[300px] h-[300px] mx-auto  rounded-full shadow-2xl z-10' src={imgjahid} alt="" />
+                <img className=' w-[300px] h-[300px] md:w-[400px] md:h-[400px] mx-auto  rounded-full shadow-2xl z-10' src={imgjahid} alt="" />
             </div>
         </div>
 

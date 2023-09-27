@@ -15,7 +15,7 @@ const About = () => {
         <div data-aos="zoom-in" className=' card-body rounded-xl m-3 my-10 bg-slate-200'>
             <div className=' text-center '>
                 <h1 className=' text-3xl font-bold py-4 '>About <span className='text-[#009900]'>me</span> </h1>
-                <div className='py-5 lg:mx-20 lg:px-32'>
+                <div className='py-5 lg:mx-20 lg:px-32 text-justify'>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius perferendis quae corrupti, explicabo veritatis! Harum, eius at?
                         Accusamus dolorum ex perspiciatis repellat eveniet explicabo ad quaerat labore laudantium quas!</p>
                 </div>
@@ -25,7 +25,7 @@ const About = () => {
                     <img data-aos="zoom-out-left" src={imgjahid} className="lg:max-w-sm   rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-3xl font-bold">Hello I Am <span className='text-[#009900]'>Jahidul Islam.</span> </h1>
-                        <p className="py-5">I am a MERN Stack Developer. As a MERN stack developer, I have a good understanding of HTML, CSS, and JavaScript, and I have successfully worked on over 10 projects.
+                        <p className="py-5 text-justify">I am a MERN Stack Developer. As a MERN stack developer, I have a good understanding of HTML, CSS, and JavaScript, and I have successfully worked on over 10 projects.
                             With my expertise in these core technologies, I specialize in building dynamic and responsive web applications. In my portfolio, I have developed a diverse range of projects,
                             including e-commerce websites, social media platforms, content management systems, and more.</p>
                         <div className=' space-y-3 my-3'>

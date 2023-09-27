@@ -29,7 +29,7 @@ const MyProjects = () => {
             <div className='text-center text-xl  lg:mx-36'>
                 <h1 className=' font-bold text-3xl py-6'>My <span className=' text-[#009900]'>Projects</span></h1>
 
-                <p className=' lg:mx-20'>Welcome to browse my website project.
+                <p className=' lg:mx-20 text-justify'>Welcome to browse my website project.
                     You can know about my work experience by working on my website project.</p>
 
             </div>
