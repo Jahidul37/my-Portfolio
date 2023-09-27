@@ -12,7 +12,7 @@ const About = () => {
     }, []);
 
     return (
-        <div data-aos="zoom-in" className=' card-body rounded-xl  my-10 bg-slate-50'>
+        <div data-aos="zoom-in" className=' card-body rounded-xl m-3 my-10 bg-slate-50'>
             <div className=' text-center '>
                 <h1 className=' text-3xl font-bold py-4 '>About <span className='text-amber-300'>me</span> </h1>
                 <div className='py-5 lg:mx-20 lg:px-32'>

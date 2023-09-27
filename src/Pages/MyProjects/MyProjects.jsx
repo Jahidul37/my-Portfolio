@@ -25,7 +25,7 @@ const MyProjects = () => {
 
     return (
 
-        <div data-aos="zoom-in-up" className=' bg-slate-50 w-full py-6 rounded-lg'>
+        <div data-aos="zoom-in-up" className=' bg-slate-50  m-3 my-10 py-6 rounded-lg'>
             <div className='text-center text-xl  lg:mx-36'>
                 <h1 className=' font-bold text-3xl py-6'>My <span className='text-amber-300'>Projects</span></h1>
 

@@ -19,8 +19,8 @@ const Banner = () => {
 
     return (
 
-        <div className='  min-w-full lg:flex place-content-around my-16'>
-            <div className=' my-auto mx-4 w-full' >
+        <div className='  min-w-sm sm:mx-5 lg:flex place-content-around my-16'>
+            <div className=' my-auto mx-4 lg:min-w-[806px] ' >
                 <h4 className='text-2xl  font-bold py-6 text-white'>Welcome to my portfolio</h4>
                 <h1 className="text-5xl font-bold">HI! I am <span className='text-amber-300'>Jahidul Islam.</span></h1>
                 <div className=''>
@@ -69,7 +69,7 @@ const Banner = () => {
             </div>
 
             <div className='my-auto  relative'>
-                <img className='max-w-sm  rounded-full shadow-2xl z-10' src={imgjahid} alt="" />
+                <img className=' w-[300px] h-[300px] mx-auto  rounded-full shadow-2xl z-10' src={imgjahid} alt="" />
             </div>
         </div>
 

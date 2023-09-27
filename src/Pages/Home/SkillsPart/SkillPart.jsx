@@ -23,7 +23,7 @@ const SkillPart = () => {
 
     return (
 
-        <div className=' bg-slate-50 w-full mb-10 py-6 rounded-lg'>   {/* data-aos="zoom-in-up" */}
+        <div className=' card-body m-3 bg-slate-50  rounded-lg'>   {/* data-aos="zoom-in-up" */}
             <div className='text-center text-xl  lg:mx-36'>
                 <h1 className=' font-bold text-3xl py-6'>My <span className='text-amber-300'>Skill</span></h1>
 

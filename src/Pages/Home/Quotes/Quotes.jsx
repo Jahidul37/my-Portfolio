@@ -14,8 +14,8 @@ const Quotes = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
 
-            className="hero rounded-lg my-10 py-4 bg-slate-50  relative">
-            <div className="hero-content text-center ">
+            className=" card-body m-3 rounded-lg my-10 py-4 bg-slate-50  relative">
+            <div className="content text-center ">
                 <div className="max-w-md">
                     <h1 className="text-3xl font-bold text-amber-300 mb-4">Quotes</h1>
                     <span className='text-5xl'>"</span>
