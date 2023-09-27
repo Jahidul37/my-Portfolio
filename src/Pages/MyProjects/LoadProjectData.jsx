@@ -18,7 +18,7 @@ const LoadProjectData = ({ user }) => {
                     <h2 className="card-title mt-4 min-[220px]">{name}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-warning opacity-90">view Details</button>
+                        <button className="btn border-none  bg-[#5dd606] text-white ">view Details</button>
                     </div>
                 </div>
             </div>
