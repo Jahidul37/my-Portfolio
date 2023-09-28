@@ -33,7 +33,7 @@ const ContactMe = () => {
         <div className=''>
             <div data-aos="flip-left" className=' card-body bg-slate-200 rounded-lg my-5'>
                 <div>
-                    <h1 className='text-3xl text-center font-bold  '>Contact <span className='text-amber-300'>Me</span></h1>
+                    <h1 className='text-3xl text-center font-bold  '>Contact <span className=' text-[#009900]'>Me</span></h1>
                 </div>
 
                 <div className=" my-6 ">
