@@ -29,8 +29,9 @@ const MyProjects = () => {
             <div className='text-center text-xl  lg:mx-36'>
                 <h1 className=' font-bold text-3xl py-6'>My <span className=' text-[#009900]'>Projects</span></h1>
 
-                <p className=' lg:mx-20 text-justify'>Welcome to browse my website project.
-                    You can know about my work experience by working on my website project.</p>
+                <p className='m-5 mb-3 lg:mx-26 text-justify'>First of all, thank you for coming to see my project works.
+                    I have also created projects using html, css java script, react, tailwind, daisyUi and various framework tools. I hope you will like my projects.  If you want you can visit my web site projects, and get an idea of ​​my work experience.  If you like my work, you can hire me.
+                    I will be able to complete your project well on time with my full effort and experience.  Inshallah.</p>
 
             </div>
 

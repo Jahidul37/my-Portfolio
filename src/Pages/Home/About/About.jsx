@@ -15,9 +15,9 @@ const About = () => {
         <div data-aos="zoom-in" className=' card-body rounded-xl m-3 my-10 bg-slate-200'>
             <div className=' text-center '>
                 <h1 className=' text-3xl font-bold py-4 '>About <span className='text-[#009900]'>me</span> </h1>
-                <div className='py-5 lg:mx-20 lg:px-32 text-justify'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius perferendis quae corrupti, explicabo veritatis! Harum, eius at?
-                        Accusamus dolorum ex perspiciatis repellat eveniet explicabo ad quaerat labore laudantium quas!</p>
+                <div className='py-5  lg:px-32 text-justify:sm'>
+                    <p>This section contains brief about me.  If you want to know more about me, you can see my CV or resume.
+                        Here you can know about me and my work experience, thanks.</p>
                 </div>
             </div>
             <div className="hero ">
@@ -31,7 +31,7 @@ const About = () => {
                         <div className=' space-y-3 my-3'>
                             <p className=' font-semibold'><span className=' text-lg me-8'>Name</span> : Jahidul Islam.</p>
                             <p className=' font-semibold'><span className=' text-lg me-12'>Age</span> : 23</p>
-                            <p className=' font-semibold'><span className=' text-lg me-2'>Address</span> : Sheowrapara,Mirpur, Dhaka</p>
+                            <p className=' font-semibold'><span className=' text-lg me-2'>Address</span> : Mirpur, Dhaka</p>
                             <p className=' font-semibold'><span className=' text-lg me-7'>Phone</span> : 01608276728.</p>
                             <p className=' font-semibold'><span className=' text-lg me-9'>Email</span> : jahidul.islam6610@gmail.com</p>
 

@@ -27,8 +27,8 @@ const SkillPart = () => {
             <div className='text-center text-xl  lg:mx-36'>
                 <h1 className=' font-bold text-3xl py-6'>My <span className='text-[#009900]'>Skill</span></h1>
 
-                <p className=' lg:mx-20 text-justify'>Welcome to browse my website project.
-                    You can know about my work experience by working on my website project.</p>
+                <p className='  text-justify'>Here I made a progress circular of all my work skills.  Here I have shared all my work experiences in percentage form.  You can check my work experience by seeing this progress.  If you hire me,
+                    I will be able to complete your entire website based job beautifully with my extensive work experience.</p>
 
             </div>
 
