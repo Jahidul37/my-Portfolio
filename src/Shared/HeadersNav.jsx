@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const HeadersNav = () => {
     const navitems = <>
-        <Link to='/'><li className='p-2 text-[#009900] '>Home</li></Link>
-        <Link to='/about'><li className='p-2 text-[#009900] '>About</li></Link>
-        <Link to='/myprojects'><li className='p-2 text-[#009900]'>Projects</li></Link>
-        <Link to='/blog'><li className='p-2 text-[#009900]'>Blogs</li></Link>
-        <Link to='/contact'><li className='p-2 text-[#009900]'>Contact</li></Link>
+        <Link to='/'><li className='p-2 text-[#e8eae8] '>Home</li></Link>
+        <Link to='/about'><li className='p-2 text-[#e8eae8] '>About</li></Link>
+        <Link to='/myprojects'><li className='p-2 text-[#e8eae8]'>Projects</li></Link>
+        <Link to='/blog'><li className='p-2 text-[#e8eae8]'>Blogs</li></Link>
+        <Link to='/contact'><li className='p-2 text-[#e8eae8]'>Contact</li></Link>
 
     </>
     return (
@@ -22,7 +22,7 @@ const HeadersNav = () => {
                         {navitems}
                     </ul>
                 </div>
-                <h3 className=" text-3xl font-bold mx-4 text-[#009900] ">Jahidul</h3>
+                <h3 className=" text-3xl font-bold mx-4 text-[#e8eae8] ">Jahidul</h3>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-xl ">

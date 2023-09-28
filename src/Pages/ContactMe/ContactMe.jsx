@@ -31,7 +31,7 @@ const ContactMe = () => {
 
     return (
         <div className=''>
-            <div data-aos="flip-left" className=' card-body bg-slate-50 rounded-lg my-5'>
+            <div data-aos="flip-left" className=' card-body bg-slate-200 rounded-lg my-5'>
                 <div>
                     <h1 className='text-3xl text-center font-bold  '>Contact <span className='text-amber-300'>Me</span></h1>
                 </div>
@@ -46,18 +46,18 @@ const ContactMe = () => {
                         <div className=" flex-shrink-0 w-full  lg:mt-20 p-5">
                             <form ref={form} onSubmit={sendEmail}>
 
-                                <div className='grid lg:grid-cols-2  gap-3'>
+                                <div className='grid lg:grid-cols-2 text-white gap-3'>
                                     <div className="form-control w-full max-w-xs">
                                         <label className="label">
                                             <span className="label-text">Name</span>
                                         </label>
-                                        <input type="text" name="user_name" placeholder="Name" className="input input-bordered w-full max-w-xs" />
+                                        <input type="text" name="user_name" placeholder="Name" className="input input-bordered border-none input-warning w-full max-w-xs" />
                                     </div>
                                     <div className="form-control w-full max-w-xs">
                                         <label className="label">
                                             <span className="label-text">Email</span>
                                         </label>
-                                        <input type="text" name="user_email" placeholder="Email" className="input input-bordered w-full max-w-xs" />
+                                        <input type="text" name="user_email" placeholder="Email" className="input input-bordered border-none input-warning w-full max-w-xs" />
                                     </div>
                                 </div>
 
@@ -66,7 +66,7 @@ const ContactMe = () => {
                                         <span className="label-text">Message</span>
 
                                     </label>
-                                    <textarea className="textarea textarea-bordered h-24" name="Message" placeholder="messege"></textarea>
+                                    <textarea className="textarea textarea-bordered h-24 text-white textarea-warning border-none" name="Message" placeholder="messege"></textarea>
                                 </div>
 
                                 <div className="form-control">
