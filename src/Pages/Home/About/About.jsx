@@ -14,13 +14,13 @@ const About = () => {
     return (
         <div data-aos="zoom-in" className=' card-body rounded-xl m-3 my-10 bg-slate-200'>
             <div className=' text-center '>
-                <h1 className=' text-3xl font-bold py-4 '>About <span className='text-[#009900]'>me</span> </h1>
+                <h1 className=' text-3xl font-bold pt-4 '>About <span className='text-[#009900]'>me</span> </h1>
                 <div className='py-5  lg:px-32 text-justify:sm'>
                     <p>This section contains brief about me.  If you want to know more about me, you can see my CV or resume.
                         Here you can know about me and my work experience, thanks.</p>
                 </div>
             </div>
-            <div className="hero ">
+            <div className="hero mb-8">
                 <div className="hero-content gap-x-10 flex-col lg:flex-row">
                     <img data-aos="zoom-out-left" src={imgjahid} className="lg:max-w-sm   rounded-lg shadow-2xl" />
                     <div>

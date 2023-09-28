@@ -6,10 +6,10 @@ import { ImFacebook2, ImLinkedin, ImYoutube, ImTwitter, ImGithub } from "react-i
 const Footers = () => {
     return (
         <div>
-            <footer className="footer p-10  bg-violet-800 text-white ">
+            <footer className="footer p-10   bg-violet-800 text-white ">
 
 
-                <div className=' mx-auto'>
+                <div className=' mx-auto m-5'>
                     <div className='mx-auto '>
                         <nav >
                             <div className="grid grid-flow-col gap-4  ">

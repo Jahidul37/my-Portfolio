@@ -22,7 +22,7 @@ const Banner = () => {
                 <h4 className='text-2xl  font-bold py-6 text-white'>Welcome to my portfolio</h4>
                 <h1 className="text-5xl font-bold I'M text-amber-500 ">HI! I am <span className='text-[#009900]'>Jahidul Islam.</span></h1>
                 <div className=''>
-                    <h1 className='text-4xl my-6 font-extrabold min-h-[80px] text-white drop-shadow-lg '>
+                    <h1 className='text-4xl my-6 font-extrabold min-h-[85px] text-white drop-shadow-lg '>
                         I'M A{' '}
                         <span style={{ color: '#009900', fontWeight: '' }}>
                             {/* Style will be inherited from the parent element */}
