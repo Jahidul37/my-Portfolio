@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import linkdin from './../assets/img-portfilio/icons8-linkedin.svg'
 import { ImFacebook2, ImLinkedin, ImYoutube, ImTwitter, ImGithub } from "react-icons/im";
+import Resume from "./../assets/CvResume/Jahidul Islam Resume.pdf"
+import DownloadCV from "./../assets/CvResume/Jahidul Islam Cv.pdf"
 
 const Footers = () => {
     return (
@@ -27,8 +29,15 @@ const Footers = () => {
                         <h1 className=' text-3xl font-bold text-center mt-3 '>Jahidul Islam</h1>
 
                         <Link to="/about"> <button className='m-2  text-lg font-semibold'>About</button></Link>
-                        <Link to=""><button className='m-2 text-lg font-semibold '>Resume</button></Link>
-                        <Link to=""><button className='m-2 text-lg font-semibold'>Download Cv</button></Link>
+                        <Link to={Resume}
+                            download="Resume-document"
+                            target="_blank"
+                            rel="noreferrer"><button className='m-2 text-lg font-semibold '>Resume</button></Link>
+
+                        <Link to={DownloadCV}
+                            download="DownloadCV-document"
+                            target="_blank"
+                            rel="noreferrer"><button className='m-2 text-lg font-semibold'>Download Cv</button></Link>
                         <Link to="/contact"><button className='m-2 border-0 outline-none text-lg font-semibold'>Hire Me</button></Link>
 
                     </div>

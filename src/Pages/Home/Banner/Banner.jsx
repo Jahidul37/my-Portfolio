@@ -3,7 +3,8 @@ import "aos/dist/aos.css";
 import { ImDownload3 } from "react-icons/im";
 import { Typewriter } from 'react-simple-typewriter';
 import imgjahid from "../../../assets/img-portfilio/jahidul.png"
-import DownloadCV from "./../../../assets/CvResume/Jahidul CV .pdf"
+import Resume from "./../../../assets/CvResume/Jahidul Islam Resume.pdf"
+import DownloadCV from "./../../../assets/CvResume/Jahidul Islam Cv.pdf"
 import "./Banner.css"
 import { Link } from "react-router-dom";
 
@@ -44,8 +45,8 @@ const Banner = () => {
 
                     {/* import Resume pdf from assest folder */}
                     <Link
-                        to={DownloadCV}
-                        download="DownloadCV-PDF-document"
+                        to={Resume}
+                        download="Resume-document"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -56,7 +57,7 @@ const Banner = () => {
                     {/* import download cv pdf from assest folder */}
                     <Link
                         to={DownloadCV}
-                        download="DownloadCV-PDF-document"
+                        download="DownloadCV-document"
                         target="_blank"
                         rel="noreferrer"
                     >
