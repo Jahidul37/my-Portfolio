@@ -11,6 +11,7 @@ import MyProjects from './Pages/MyProjects/MyProjects';
 import ContactMe from './Pages/ContactMe/ContactMe';
 import Errorpage from './Pages/Errorpage/Errorpage';
 import About from './Pages/Home/About/About';
+import Blogs from './Pages/Blogs/Blogs';
 
 const router = createBrowserRouter([
   {
@@ -29,10 +30,10 @@ const router = createBrowserRouter([
       path: "/about",
       element: <About></About>,
     },
-    // {
-    //   path: "/blog",
-    //   element: <AboutDescription></AboutDescription>,
-    // },
+    {
+      path: "/blog",
+      element: <Blogs></Blogs>,
+    },
     {
       path: "/contact",
       element: <ContactMe></ContactMe>,

@@ -1,16 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 // import "./HeadersNav.css"
 
 const HeadersNav = () => {
-    const navitems = <>
-        <Link to='/'><li className='p-2 text-[#e8eae8] '>Home</li></Link>
-        <Link to='/about'><li className='p-2 text-[#e8eae8] '>About</li></Link>
-        <Link to='/myprojects'><li className='p-2 text-[#e8eae8]'>Projects</li></Link>
-        <Link to='/blog'><li className='p-2 text-[#e8eae8]'>Blogs</li></Link>
-        <Link to='/contact'><li className='p-2 text-[#e8eae8]'>Contact</li></Link>
+    // for active button windows.location used  here .
+    const location = useLocation();
 
+    const navitems = <>
+        <NavLink exact to='/' activeClassName='active'>
+            <li className='p-2 ' style={{ color: window.location.pathname === '/' ? '#009900' : '#e8eae8' }}>Home</li>
+        </NavLink>
+        <NavLink to='/about' activeClassName='active'>
+            <li className='p-2' style={{ color: window.location.pathname === '/about' ? '#009900' : '#e8eae8' }}>About</li>
+        </NavLink>
+        <NavLink to='/myprojects' activeClassName='active'>
+            <li className='p-2' style={{ color: window.location.pathname === '/myprojects' ? '#009900' : '#e8eae8' }}>Projects</li>
+        </NavLink>
+        <NavLink to='/blog' activeClassName='active'>
+            <li className='p-2' style={{ color: window.location.pathname === '/blog' ? '#009900' : '#e8eae8' }}>Blogs</li>
+        </NavLink>
+        <NavLink to='/contact' activeClassName='active'>
+            <li className='p-2' style={{ color: window.location.pathname === '/contact' ? '#009900' : '#e8eae8' }}>Contact</li>
+        </NavLink>
     </>
+
     return (
         <div className="navbar ">
             <div className="navbar-start ">

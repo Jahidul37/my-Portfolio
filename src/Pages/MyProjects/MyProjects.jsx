@@ -7,12 +7,21 @@ const MyProjects = () => {
 
     // load data in api
     const [users, setUsers] = useState([])
+    const [apiData, setApiData] = useState([])
     useEffect(() => {
         fetch('projectsImg.json')
             .then(res => res.json())
-            .then(data => setUsers(data))
+            .then(data => {
+                setApiData(data)
+                setUsers(data.slice(0, 3))
+            })
     }, [])
 
+    // show all data button function 
+    const showAllData = () => {
+        // Display all data
+        setUsers(apiData);
+    };
 
 
     // react aos animation
@@ -50,7 +59,8 @@ const MyProjects = () => {
                 {/* card difference er part end */}
 
                 <div className='text center mx-auto my-auto'>
-                    <button className='btn border-none  bg-amber-500 text-white mx-auto '>see more</button>
+                    <button className='btn border-none
+                      bg-amber-500 text-white mx-auto ' onClick={showAllData}>see more</button>
                 </div>
             </div>
 
