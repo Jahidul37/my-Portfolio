@@ -4,7 +4,13 @@ import lottieimg from "./../../assets/img-portfilio/contact.json"
 import Lottie from "lottie-react";
 import AOS from "aos";
 
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+
 const ContactMe = () => {
+
+    const notify = () => toast("messege send successfully.👌");
 
     useEffect(() => {
         AOS.init();
@@ -15,15 +21,15 @@ const ContactMe = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm(
-            'service_p552rll',
-            'template_rs1buhk',
+            'service_34ue9v8',
+            'template_ci37wph',
             form.current,
             'mMneEUHwbwb8Fp68P'
         )
             .then((result) => {
                 console.log(result.text);
+                // console.log("messege send");
             }, (error) => {
                 console.log(error.text);
             });
@@ -57,7 +63,7 @@ const ContactMe = () => {
                                         <label className="label">
                                             <span className="label-text">Email</span>
                                         </label>
-                                        <input type="text" name="user_email" placeholder="Email" className="input input-bordered border-none input-warning w-full max-w-xs" />
+                                        <input type="email" name="user_email" placeholder="Email" className="input input-bordered border-none input-warning w-full max-w-xs" />
                                     </div>
                                 </div>
 
@@ -66,13 +72,12 @@ const ContactMe = () => {
                                         <span className="label-text">Message</span>
 
                                     </label>
-                                    <textarea className="textarea textarea-bordered h-24 text-white textarea-warning border-none" name="Message" placeholder="messege"></textarea>
+                                    <textarea className="textarea textarea-bordered h-24 lg:text-white textarea-warning border-none" name="message" placeholder="messege"></textarea>
                                 </div>
 
                                 <div className="form-control">
-
-                                    <input className="btn border-none  bg-[#009900] text-white mt-3" type="submit" value="Send" />
-
+                                    <input onClick={notify} className="btn border-none  bg-[#009900] lg:text-white mt-3" type="submit" value="Send" />
+                                    <ToastContainer />
                                 </div>
                             </form>
                         </div>
