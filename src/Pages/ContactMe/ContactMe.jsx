@@ -72,11 +72,11 @@ const ContactMe = () => {
                                         <span className="label-text">Message</span>
 
                                     </label>
-                                    <textarea className="textarea textarea-bordered h-24 lg:text-white textarea-warning border-none" name="message" placeholder="messege"></textarea>
+                                    <textarea className="textarea textarea-bordered h-24 text-white textarea-warning border-none" name="message" placeholder="messege"></textarea>
                                 </div>
 
                                 <div className="form-control">
-                                    <input onClick={notify} className="btn border-none  bg-[#009900] lg:text-white mt-3" type="submit" value="Send" />
+                                    <input onClick={notify} className="btn border-none  bg-[#009900] text-white mt-3" type="submit" value="Send" />
                                     <ToastContainer />
                                 </div>
                             </form>
